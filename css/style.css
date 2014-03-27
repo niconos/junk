@@ -18,7 +18,7 @@ body{
 	font-size:1.4rem;
 	-webkit-text-size-adjust: none;
 	-webkit-user-select: none;
-	background-image: url('img/bg.png');
+	background-image: url('../img/bg.png');
 }
 ul {
 	-webkit-padding-start: 0;
