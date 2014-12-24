@@ -1,0 +1,112 @@
+@charset "utf-8";
+html {
+	overflow-y: scroll;
+	font-size: 62.5%; 
+}
+body {
+	font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+	font-size: 14px; 
+	font-size: 1.4rem; 
+	color: #333333;
+	-webkit-text-size-adjust: none;
+	background-color: #FFF4DF;
+}
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a,em, img,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+figure, figcaption, footer, header, hgroup,
+nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	line-height: 140%;
+}
+div, span,
+h3, h4, h5, h6, p,
+a,em, img,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+figure, figcaption, footer, header, hgroup,
+nav, section {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+h2 {
+	font-size: 20px;
+	font-size: 2.0rem;
+}
+table {
+	border-collapse: collapse;  border-spacing: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #ffff00;
+}
+/* font-size */
+.fs18 { font-size: 18px; font-size: 1.8rem; }
+.fs16 { font-size: 16px; font-size: 1.6rem; }
+.fs14 { font-size: 14px; font-size: 1.4rem; }
+.fs12 { font-size: 12px; font-size: 1.2rem; }
+.fs10 { font-size: 10px; font-size: 1.0rem; }
+/* text-align */
+.t-center { text-align: center; }
+.t-left {   text-align: left; }
+.t-right {  text-align: right; }
+/* padding */
+.pl5 {  padding-left:   5px; }
+.pt5 {  padding-top:    5px; }
+.pr5 {  padding-right:  5px; }
+.pb5 {  padding-bottom: 5px; }
+.pl10 { padding-left:   10px; }
+.pt10 { padding-top:    10px; }
+.pr10 { padding-right:  10px; }
+.pb10 { padding-bottom: 10px; }
+/* margin */
+.ml5 {  margin-left:   5px; }
+.mt5 {  margin-top:    5px; }
+.mr5 {  margin-right:  5px; }
+.mb5 {  margin-bottom: 5px; }
+.ml10 { margin-left:   10px; }
+.mt10 { margin-top:    10px; }
+.mr10 { margin-right:  10px; }
+.mb10 { margin-bottom: 10px; }
+
+header {
+	background-color: #FFDB94;
+	padding: 5px;
+}
+.title-box {
+	background-color:;
+}
+.head-menu-list {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.head-menu-list > li {
+	display: table-cell;
+	width: 20%;
+	background-color: #ebca57;
+	border-right: 2px solid #ffffff;
+	-webkit-box-sizing: border-box;
+}
+.head-menu-list > li:first-child {
+	border-left: 2px solid #ffffff;
+}
+.head-menu-list > li.active {
+	background-color: #ebddc2;
+}
+
